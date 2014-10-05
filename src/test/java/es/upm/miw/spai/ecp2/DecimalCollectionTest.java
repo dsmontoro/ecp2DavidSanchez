@@ -12,8 +12,8 @@ public class DecimalCollectionTest {
 	@Before
 	public void before(){
 		dc = new DecimalCollection();
-		dc.add((double) 1);
-		dc.add((double) 2);
+		dc.add(1.0);
+		dc.add(2.0);
 	}
 
 	@Test
@@ -23,12 +23,12 @@ public class DecimalCollectionTest {
 
 	@Test
 	public void testSum() {
-		assertEquals(3, dc.sum());
+		assertEquals(3.0, dc.sum());
 	}
 
 	@Test
 	public void testHigher() {
-		assertEquals((double)2, dc.higher());
+		assertEquals(2.0, dc.higher());
 	}
 
 }
