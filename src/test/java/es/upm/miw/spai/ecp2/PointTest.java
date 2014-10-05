@@ -9,7 +9,6 @@ import org.junit.Test;
 public class PointTest { 
      private Point pt; 
  
-
      @Before 
      public void before() { 
     	 pt = new Point(2, 3); 
