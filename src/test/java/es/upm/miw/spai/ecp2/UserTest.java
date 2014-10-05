@@ -16,34 +16,34 @@ public class UserTest {
 
 	@Test
 	public void testUser() {
-		assertEquals(1, user.GetNumber());
-		assertEquals("Sergio", user.GetName());
-		assertEquals("Fernandez Alvarez", user.GetFamilyName()); 
+		assertEquals(1, user.getNumber());
+		assertEquals("Sergio", user.getName());
+		assertEquals("Fernandez Alvarez", user.getFamilyName()); 
 	}
 
 	@Test
 	public void testGetNumber() {
-		assertEquals(1, user.GetNumber()); 
+		assertEquals(1, user.getNumber()); 
 	}
 
 	@Test
 	public void testGetName() {
-		assertEquals("Sergio", user.GetName());
+		assertEquals("Sergio", user.getName());
 	}
 
 	@Test
 	public void testGetFamilyName() {
-		assertEquals("Fernandez Alvarez", user.GetFamilyName());
+		assertEquals("Fernandez Alvarez", user.getFamilyName());
 	}
 
 	@Test
 	public void testFullName() {
-		assertEquals("Sergio Fernandez Alvarez", user.GetFullName());
+		assertEquals("Sergio Fernandez Alvarez", user.getFullName());
 	}
 
 	@Test
 	public void testInitials() {
-		assertEquals("S.F.A", user.initials());
+		assertEquals("S.", user.initials());
 	}
 
 }
