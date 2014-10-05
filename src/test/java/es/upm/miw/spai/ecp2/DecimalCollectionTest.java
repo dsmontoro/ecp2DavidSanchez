@@ -18,17 +18,17 @@ public class DecimalCollectionTest {
 
 	@Test
 	public void testSize() {
-		assertEquals(2, user.size());
+		assertEquals(2, dc.size());
 	}
 
 	@Test
 	public void testSum() {
-		assertEquals(3, user.sum());
+		assertEquals(3, dc.sum());
 	}
 
 	@Test
 	public void testHigher() {
-		assertEquals(2, user.higher());
+		assertEquals((double)2, dc.higher());
 	}
 
 }
