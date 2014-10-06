@@ -61,28 +61,27 @@ public class Fraction {
     }
 
 	public boolean isPropia() {
-		// TODO Auto-generated method stub
-		return null;
+		return numerator < denominator;
 	}
 
 	public boolean isImpropia() {
-		// TODO Auto-generated method stub
-		return null;
+		return numerator > denominator;
 	}
 
-	public boolean isEquivalente(Fraction fraction2) {
-		// TODO Auto-generated method stub
-		return null;
+	public boolean isEquivalente(Fraction f) {
+		Double extremos = new Double( numerator * f.getDenominator() );
+		Double medios = new Double( denominator * f.getNumerator() );
+		return extremos.equals(medios);
 	}
 
-	public boolean mayor(Fraction fraction2) {
-		// TODO Auto-generated method stub
-		return null;
+	public boolean mayor(Fraction f) {
+		Double decimal = new Double (numerator/denominator);
+		return decimal > f.decimal();
 	}
 
-	public boolean menor(Fraction fraction2) {
-		// TODO Auto-generated method stub
-		return null;
+	public boolean menor(Fraction f) {
+		Double decimal = new Double (numerator/denominator);
+		return decimal < f.decimal();
 	}
     
 }

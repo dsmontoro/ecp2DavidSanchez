@@ -39,7 +39,7 @@ public class FractionTest {
 
 	@Test
 	public void testDecimal() {
-		assertEquals((double) 2, fraction.decimal());
+		assertEquals((double) 2, fraction.decimal(), 1e-3);
 	}
 	
 	public void testIsPropia(){
