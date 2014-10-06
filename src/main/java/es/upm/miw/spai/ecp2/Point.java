@@ -41,5 +41,13 @@ public class Point {
     public String toString() {
         return "Point[" + x + "," + y + "]";
     }
+
+	public void setX(int i) {
+		// TODO Auto-generated method stub
+	}
+
+	public void setY(int i) {
+		// TODO Auto-generated method stub
+	}
     
 }
