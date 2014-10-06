@@ -38,7 +38,7 @@ public class UserTest {
 
 	@Test
 	public void testFullName() {
-		assertEquals("Sergio Fernandez Alvarez", user.getFullName());
+		assertEquals("Sergio Fernandez Alvarez", user.fullName());
 	}
 
 	@Test
