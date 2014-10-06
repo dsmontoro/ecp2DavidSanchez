@@ -39,4 +39,9 @@ public class User {
     public String initials() {
         return this.name.substring(0, 1) + ".";
     }
+
+	public String nameUppercase() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
