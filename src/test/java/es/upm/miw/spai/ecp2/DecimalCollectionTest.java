@@ -32,11 +32,7 @@ public class DecimalCollectionTest {
 	}
 	
 	@Test
-	public void testMenor() {
-		dc = new DecimalCollection();
-		dc.add(1.5);
-		DecimalCollection dc2 = new DecimalCollection();
-		dc2.add(4.8);
-		assertEquals(true, dc2.menor());
+	public void testLower() {
+	    assertEquals(1.0, dc.lower(), 0);
 	}
 }
