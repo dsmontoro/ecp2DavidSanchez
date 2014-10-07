@@ -29,7 +29,7 @@ public class FractionTest {
 
 	@Test
 	public void testGetNumerator() {
-		assertEquals(4, fraction.GetNumerator());
+		assertEquals(4, fraction.getNumerator());
 	}
 
 	@Test
