@@ -11,14 +11,14 @@ public class UserTest {
 	
 	@Before
 	public void before(){
-		user = new User(1,"Sergio","Fernandez Alvarez");
+		user = new User(1,"Sergio","Fernandez");
 	}
 
 	@Test
 	public void testUser() {
 		assertEquals(1, user.getNumber());
 		assertEquals("Sergio", user.getName());
-		assertEquals("Fernandez Alvarez", user.getFamilyName()); 
+		assertEquals("Fernandez", user.getFamilyName()); 
 	}
 
 	@Test
@@ -33,12 +33,12 @@ public class UserTest {
 
 	@Test
 	public void testGetFamilyName() {
-		assertEquals("Fernandez Alvarez", user.getFamilyName());
+		assertEquals("Fernandez", user.getFamilyName());
 	}
 
 	@Test
 	public void testFullName() {
-		assertEquals("Sergio Fernandez Alvarez", user.fullName());
+		assertEquals("Sergio Fernandez", user.fullName());
 	}
 
 	@Test
