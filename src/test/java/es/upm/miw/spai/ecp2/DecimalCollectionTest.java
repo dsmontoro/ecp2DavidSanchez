@@ -23,12 +23,12 @@ public class DecimalCollectionTest {
 
 	@Test
 	public void testSum() {
-		assertEquals(3.0, dc.sum());
+		assertEquals(3.0, dc.sum(),0);
 	}
 
 	@Test
 	public void testHigher() {
-		assertEquals(2.0, dc.higher());
+		assertEquals(2.0, dc.higher(),0);
 	}
 	
 	@Test
